@@ -1,0 +1,46 @@
+.container{
+    @apply
+    h-screen w-screen 
+    flex flex-col
+    text-white 
+    justify-between
+    items-center
+    m-auto
+    space-y-8 bg-background
+}
+
+.body{
+    @apply
+    w-screen
+    flex flex-col 
+    items-center text-center 
+    space-y-6
+    justify-center
+    mt-32
+}
+.hello{
+    @apply
+    flex
+    w-96
+}
+.name{
+    @apply
+    text-6xl lg:text-5xl xl:text-5xl 2xl:text-8xl
+}
+.title{
+    @apply
+    text-3xl lg:text-xl xl:text-2xl 2xl:text-4xl
+    sm:ml-24
+}
+.description{
+    @apply 
+    text-xl
+    sm:mx-8 
+    w-96
+}
+.button{
+    @apply
+    flex flex-col 
+    space-y-16 
+    items-center m-auto
+}

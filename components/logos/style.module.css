@@ -1,0 +1,14 @@
+.container{
+    @apply
+    fixed
+    flex flex-col
+    space-y-4 
+    items-center
+    left-4 bottom-4
+}
+.logo{
+    @apply
+    w-10 h-10
+    2xl:w-12 2xl:h-12
+    relative
+}

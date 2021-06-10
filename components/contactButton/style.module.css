@@ -1,0 +1,10 @@
+.button{
+    @apply 
+    bg-transparent 
+    rounded-lg
+    border-4
+    border-primary
+    py-4 px-8
+    text-primary text-2xl 
+    focus:outline-none
+}

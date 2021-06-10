@@ -1,0 +1,10 @@
+.container{
+    @apply
+    hidden sm:flex 
+    text-2xl text-white
+    space-x-8
+    fixed right-0 top-0
+    w-full
+    justify-end
+    p-8
+}
