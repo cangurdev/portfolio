@@ -6,10 +6,11 @@ export default function Landing() {
     return (
         <div className={styles.container} >
             <div className={styles.body}>
+                <div className="space-y-2">
                     <p className={styles.hello} >Hi, my name is</p>
                     <h1 className={styles.name}>CAN GüR</h1>
-                    <h2 className={styles.title}>Frontend Developer</h2>
-                    <p className={styles.description}>I am currently living in Istanbul. Interested in frontend and backend development in the web field.</p>
+                </div>
+                <h2 className={styles.title}>Frontend Developer</h2>
             </div>
             <div className={styles.button}>
                 <ContactButton />

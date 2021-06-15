@@ -5,7 +5,7 @@ export default function Navbar() {
         <div className={styles.container}>
             <a href="#about">About Me</a>
             <a href="#experience">Experience</a>
-            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
         </div>
     )
 }

@@ -1,0 +1,37 @@
+.container{
+    @apply
+    h-screen w-screen 
+    flex flex-col 
+    items-center justify-between 
+    text-white bg-background
+    px-8
+}
+.list{
+    @apply
+    grid
+    grid-rows-4 sm:grid-rows-3 
+    grid-flow-col gap-3
+}
+.body{
+    @apply
+    sm:w-1/2 sm:h-2/3 
+    space-y-8 m-auto
+}
+.content{
+    @apply
+    flex 
+    flex-col sm:flex-row
+    sm:space-x-8
+    order-last sm:order-first
+    justify-center
+    items-center
+}
+.image{
+    @apply
+    h-64 w-64
+    flex
+    sm:h-96 sm:w-auto
+    shadow-2xl
+    mb-8
+    order-first sm:order-last
+}

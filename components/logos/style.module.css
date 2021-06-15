@@ -1,10 +1,11 @@
 .container{
     @apply
-    fixed
-    flex flex-col
-    space-y-4 
-    items-center
-    left-4 bottom-4
+    absolute sm:fixed
+    flex sm:flex-col
+    space-x-4 sm:space-x-0 sm:space-y-4 
+    top-4 sm:left-4 sm:bottom-4 sm:top-auto
+    w-screen sm:w-16
+    justify-center
 }
 .logo{
     @apply
