@@ -1,6 +1,6 @@
 .container{
     @apply
-    h-screen w-screen 
+    min-h-screen w-screen 
     flex flex-col 
     items-center justify-between 
     text-white bg-background
@@ -11,11 +11,16 @@
     grid
     grid-rows-4 sm:grid-rows-3 
     grid-flow-col gap-3
+    text-sm 
+    sm:text-base
 }
 .body{
     @apply
     sm:w-1/2 sm:h-2/3 
-    space-y-8 m-auto
+    min-h-screen
+    space-y-8 
+    m-auto
+    mb-4
 }
 .content{
     @apply

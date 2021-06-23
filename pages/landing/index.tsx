@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import ContactButton from '../../components/contactButton'
+import DownArrow from '../../components/downArrow'
 import styles from './style.module.css'
 
 export default function Landing() {
@@ -14,9 +14,7 @@ export default function Landing() {
             </div>
             <div className={styles.button}>
                 <ContactButton />
-                <a href="#about" className="animate-bounce m-auto">
-                    <Image src="/arrow.svg" alt="Down Arrow" width={56} height={56} />
-                </a>
+                <DownArrow link="#about" />
             </div>
         </div>
 
