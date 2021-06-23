@@ -1,10 +1,53 @@
 .container{
-    @apply
-    min-h-screen w-screen 
+    @apply 
+    min-h-screen w-screen
+    sm:h-screen
     flex flex-col 
-    items-center justify-between 
+    items-center justify-center
     text-white bg-background
     px-8
+}
+.body{
+    @apply
+    sm:w-1/2 
+    min-h-screen
+    sm:h-2/3 sm:min-h-0
+    space-y-8
+    flex flex-col 
+}
+.content{
+    @apply
+    flex 
+    flex-col sm:flex-row
+    sm:space-x-8
+    order-last sm:order-first
+    items-center
+}
+.image{
+    @apply
+    h-64
+    flex
+    sm:h-96
+    shadow-2xl
+    mb-8
+    order-first sm:order-last
+}
+.button{
+    @apply
+    flex flex-col 
+    items-center
+    order-last
+}
+.title{
+    @apply
+    order-first
+    text-3xl sm:text-5xl
+    space-y-8
+}
+.writes{
+    @apply
+    flex flex-col 
+    space-y-8
 }
 .list{
     @apply
@@ -13,30 +56,4 @@
     grid-flow-col gap-3
     text-sm 
     sm:text-base
-}
-.body{
-    @apply
-    sm:w-1/2 sm:h-2/3 
-    min-h-screen
-    space-y-8 
-    m-auto
-    mb-4
-}
-.content{
-    @apply
-    flex 
-    flex-col sm:flex-row
-    sm:space-x-8
-    order-last sm:order-first
-    justify-center
-    items-center
-}
-.image{
-    @apply
-    h-64 w-64
-    flex
-    sm:h-96 sm:w-auto
-    shadow-2xl
-    mb-8
-    order-first sm:order-last
 }

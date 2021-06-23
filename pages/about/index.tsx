@@ -6,12 +6,14 @@ export default function About() {
     return (
         <div id="about" className={styles.container}>
             <div className={styles.body}>
-                <h2 className="text-3xl sm:text-5xl">
-                    About Me
-                </h2>
-                <hr></hr>
+                <div className={styles.title}>
+                    <h2>
+                        About Me
+                    </h2>
+                    <hr></hr>
+                </div>
                 <div className={styles.content}>
-                    <div className="flex flex-col space-y-8">
+                    <div className={styles.writes}>
                         <p className="text-sm sm:text-lg">
                             Hello! My name is Can. I am a fresh graduated Software Developer.
                             Interested in web development for a while.
@@ -36,8 +38,11 @@ export default function About() {
                     </div>
                     <img src="/profile.jpg" className={styles.image} />
                 </div>
+                <div className={styles.button}>
+                    <DownArrow link="#experince" />
+                </div>
             </div>
-            <DownArrow link="#experince" />
+
         </div>
     )
 }
